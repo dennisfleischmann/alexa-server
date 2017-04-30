@@ -20,18 +20,16 @@ app.error = function( exception, request, response ) {
 	response.say( 'Sorry an error occured ' + error.message);
 };
 
-app.intent('sayNumber',
+app.intent('reactProphet',
   {
     "slots":{"number":"NUMBER"}
 	,"utterances":[ 
-		"say the number {1-100|number}",
-		"give me the number {1-100|number}",
-		"tell me the number {1-100|number}",
-		"I want to hear you say the number {1-100|number}"]
+		"wer ist der React Prophet?"
+		]
   },
   function(request,response) {
-    var number = request.slot('number');
-    response.say("You asked for the number "+number);
+    //var number = request.slot('number');
+    response.say("Ganz klar. Natürlich bist du der React Prophet, Dennis");
   }
 );
 
