@@ -24,7 +24,7 @@ app.intent('reactProphet',
   {
     "slots":{"number":"NUMBER"}
 	,"utterances":[ 
-		"Wer ist der React Prophet"
+		"wer ist der react prophet"
 		]
   },
   function(request,response) {
