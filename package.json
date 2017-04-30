@@ -1,0 +1,14 @@
+{
+  "name": "alexa-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "git@github.com:dennisfleischmann/alexa-server.git",
+  "author": "Dennis Fleischmann <dennis.fleischmann@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "alexa-app-server": "^3.0.1"
+  },
+  "scripts":{ 
+    "start":  "node server.js"
+  }
+}

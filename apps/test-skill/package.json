@@ -1,0 +1,12 @@
+{
+  "name": "test-skill",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "",
+  "repository": "git@github.com:dennisfleischmann/test-skill.git",
+  "author": "Dennis Fleischmann <dennis.fleischmann@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "alexa-app": "^4.0.0"
+  }
+}
