@@ -53,7 +53,7 @@ app.intent("ondre", {
             }
 
         }).then(function(d) {
-            response.say('Guten abend lieber ondre vielleicht hasst du schon von mir gehört ich bin alexa! dennis und ich gratulieren euch ganz herzlich zum nachwuchs und wünschen euch vieren vie gesundheit auf erden. Ich hoffe wir lernen uns mal ganz persönlich kennen. Bis bald');
+            response.say('Guten abend lieber ondre vielleicht hasst du schon von mir gehört ich bin alexa! dennis und ich gratulieren euch ganz herzlich zum nachwuchs und wünschen euch vieren sehr viel gesundheit auf erden. Ich hoffe wir lernen uns mal ganz persönlich kennen. Bis bald');
 
         });
     });
