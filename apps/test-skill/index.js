@@ -28,7 +28,7 @@ app.intent('besuchen', {
     },
     function(request, response) {
         //var number = request.slot('number');
-        response.say("gerne dennis, wie geht es deiner ehefrau ondre?");
+        response.say("ja sehr gerne dennis, wie geht es deiner lieben ehefrau ondre? ist sie wohl auf?");
     }
 );
 
@@ -53,7 +53,7 @@ app.intent("ondre", {
             }
 
         }).then(function(d) {
-            response.say('Guten abend lieber ondre vielleicht hasst du schon von mir gehört ich bin alexa! dennis und ich gratulieren euch ganz herzlich zum nachwuchs und wünschen euch vieren sehr viel gesundheit auf erden. Ich hoffe wir lernen uns mal ganz persönlich kennen. Bis bald');
+            response.say('Guten abend lieber ondre vielleicht hasst du schon von mir gehört ich bin alexa! dennis und ich gratulieren euch ganz herzlich zum nachwuchs und wünschen euch vieren sehr viel gesundheit auf erden. Ich bin schon sehr gespannt euch mal ganz persönlich kennen zu lernen. Bis bald');
 
         });
     });
