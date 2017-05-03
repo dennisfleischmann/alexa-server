@@ -28,13 +28,13 @@ app.intent('besuchen', {
     },
     function(request, response) {
         //var number = request.slot('number');
-        response.say("Ganz klar. Natürlich bist du der React Prophet, Dennis");
+        response.say("gerne dennis, wie geht es deiner ehefrau ondre?");
     }
 );
 
-app.intent("andre", {
+app.intent("ondre", {
         "utterances": [
-            "wie es cécile laetita geht"
+            "wie es cecile laetita geht"
         ]
     },
     function(request, response) {
@@ -53,7 +53,7 @@ app.intent("andre", {
             }
 
         }).then(function(d) {
-            response.say('Guten abend lieber andré vielleicht hasst du schon von mir gehört ich bin alexa! ich und dennis gratulieren euch ganz herzlich zum nachwuchs und wünschen euch vieren vie gesundheit auf erden. Ich hoffe wir lernen uns mal ganz persönlich kennen.');
+            response.say('Guten abend lieber ondre vielleicht hasst du schon von mir gehört ich bin alexa! ich und dennis gratulieren euch ganz herzlich zum nachwuchs und wünschen euch vieren vie gesundheit auf erden. Ich hoffe wir lernen uns mal ganz persönlich kennen.');
 
         });
     });
