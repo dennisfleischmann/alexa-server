@@ -23,7 +23,7 @@ app.error = function(exception, request, response) {
 app.intent('besuchen', {
         "slots": { "number": "NUMBER" },
         "utterances": [
-            "wie es der katie geht"
+            "wie es katy geht"
         ]
     },
     function(request, response) {
@@ -53,7 +53,7 @@ app.intent("ondre", {
             }
 
         }).then(function(d) {
-            response.say('Guten abend lieber ondre vielleicht hasst du schon von mir gehört ich bin alexa! ich und dennis gratulieren euch ganz herzlich zum nachwuchs und wünschen euch vieren vie gesundheit auf erden. Ich hoffe wir lernen uns mal ganz persönlich kennen.');
+            response.say('Guten abend lieber ondre vielleicht hasst du schon von mir gehört ich bin alexa! dennis und ich gratulieren euch ganz herzlich zum nachwuchs und wünschen euch vieren vie gesundheit auf erden. Ich hoffe wir lernen uns mal ganz persönlich kennen. Bis bald');
 
         });
     });
